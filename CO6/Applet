@@ -1,0 +1,18 @@
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
+public class demo extends Applet
+{
+  public void init()
+  {
+     setForeground(Color.black);
+     setBackground(Color.red);
+  }
+  public void paint(Graphics g)
+  {
+     g.drawString("Welcome",100,200);
+  }
+}
+/*
+<applet code="demo.class" width="300" height="300">
+</applet> */
