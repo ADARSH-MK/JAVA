@@ -25,7 +25,6 @@ class AvarageOfPos
  throw new Negative("enter positive number!");
  }
  else
-37
  {
  sum=sum+num;
  }
